@@ -365,7 +365,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin, onSwitchToSignup }) 
 
         <TouchableOpacity style={styles.switchAuthButton} onPress={onSwitchToSignup}>
           <Text style={styles.switchAuthText}>
-            Don't have an account? <Text style={styles.switchAuthLink}>Sign Up</Text>
+            Do not have an account? <Text style={styles.switchAuthLink}>Sign Up</Text>
           </Text>
         </TouchableOpacity>
       </View>
